@@ -15,7 +15,7 @@ D:/Games/Github/DialogueEditor
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-21026
+8013
 Successfully changed project path to: D:/Games/Github/DialogueEditor
 D:/Games/Github/DialogueEditor
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Games/Github/DialogueEditor
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 87.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.19f1/Editor/Data/Resources/UnitySubsystems
@@ -58,95 +58,98 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   NVIDIA
     VRAM:     5980 MB
-    Driver:   27.21.14.6647
+    Driver:   31.0.15.1640
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006051 seconds.
+Registered in 0.004748 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.74 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
+- Completed reload, in  0.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1002ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (418ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003602 seconds.
+Registered in 0.002710 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Games\Github\DialogueEditor\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\Games\Github\DialogueEditor\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1348ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (482ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (47.5 KB). Loaded Objects now: 3592.
-Memory consumption went from 108.3 MB to 108.2 MB.
-Total: 5.245300 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.440100 ms MarkObjects: 4.303300 ms  DeleteObjects: 0.087700 ms)
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (47.5 KB). Loaded Objects now: 3593.
+Memory consumption went from 108.3 MB to 108.3 MB.
+Total: 2.910400 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.446600 ms  DeleteObjects: 0.063400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,130 +163,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 189020.199173 seconds.
-  path: Assets/Editor/DialogueEditor/Windows/DEWindow.cs
-  artifactKey: Guid(06eb3fa311755a64c8d01b000f725333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Windows/DEWindow.cs using Guid(06eb3fa311755a64c8d01b000f725333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2327c8e3532cb3b429d99370eb53dd0e') in 0.086843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 406.614380 seconds.
-  path: Assets/Editor/DialogueEditor/Elements/DEMultipleChoiceNode.cs
-  artifactKey: Guid(93842aa2febc6424c942e9590dc42dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Elements/DEMultipleChoiceNode.cs using Guid(93842aa2febc6424c942e9590dc42dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403db6ae759166d0ed07fa6603e0c2a') in 0.007236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.715645 seconds.
-  path: Assets/Editor/DialogueEditor/Elements/DESingleChoiceNode.cs
-  artifactKey: Guid(16148da35b5bf2046b76c0280df0a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Elements/DESingleChoiceNode.cs using Guid(16148da35b5bf2046b76c0280df0a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7507a0cf1644e6bc6c50ba280ef285af') in 0.005953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 932.308699 seconds.
-  path: Assets/Editor/DialogueEditor/Utilities/DEIOUUtility.cs
-  artifactKey: Guid(9ae64c19526d6474398ae6ccfd758e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Utilities/DEIOUUtility.cs using Guid(9ae64c19526d6474398ae6ccfd758e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939c0b572e6f121c3fdf9d63cb93166c') in 0.006182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.850733 seconds.
-  path: Assets/Editor/DialogueEditor/Utilities/DEElementUtility.cs
-  artifactKey: Guid(b461cc08ce91dc44090ba622c9457f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Utilities/DEElementUtility.cs using Guid(b461cc08ce91dc44090ba622c9457f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8084e826bccf5114f3c829409a4d42') in 0.056861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.668704 seconds.
-  path: Assets/Editor/DialogueEditor/Utilities/DEStyleUtility.cs
-  artifactKey: Guid(45e810d9b4d8d1445816a01d761080b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Utilities/DEStyleUtility.cs using Guid(45e810d9b4d8d1445816a01d761080b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e084081f319e90419d62a6af1d9d0723') in 0.006262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 537.228631 seconds.
-  path: Assets/Editor/DialogueEditor/Elements/DEGroup.cs
-  artifactKey: Guid(28f5f1901a863ea43a43e8d3ab23dea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DialogueEditor/Elements/DEGroup.cs using Guid(28f5f1901a863ea43a43e8d3ab23dea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a094b0b5334db04b888e4d5e84b61a3') in 0.006776 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002214 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Games\Github\DialogueEditor\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\Games\Github\DialogueEditor\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (789ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (324ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (24.6 KB). Loaded Objects now: 3595.
-Memory consumption went from 108.1 MB to 108.1 MB.
-Total: 3.010100 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.158800 ms MarkObjects: 2.574500 ms  DeleteObjects: 0.019800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 898.303411 seconds.
-  path: Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueContainerSO.cs
-  artifactKey: Guid(4dcfefd20c8c0ac4aa2cdb705edc8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueContainerSO.cs using Guid(4dcfefd20c8c0ac4aa2cdb705edc8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad2eff8b285320f0db444dea72adeff') in 0.016102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 139.601442 seconds.
-  path: Assets/DialogueEditor/Scripts/Data/DEDialogueChoiceData.cs
-  artifactKey: Guid(4c78765b70295454caa497d2c8193f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Scripts/Data/DEDialogueChoiceData.cs using Guid(4c78765b70295454caa497d2c8193f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479afdd795bdc30e33134882dbc93725') in 0.006601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.442807 seconds.
-  path: Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueSO.cs
-  artifactKey: Guid(73f4f2ae394c42e4085353cdffe0af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueSO.cs using Guid(73f4f2ae394c42e4085353cdffe0af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd701307b3213404b57a463766c56ed9') in 0.006952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.547496 seconds.
-  path: Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueGroupSO.cs
-  artifactKey: Guid(4735b4850fddeb6418707a3086936ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Scripts/ScriptableObjects/DEDialogueGroupSO.cs using Guid(4735b4850fddeb6418707a3086936ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e8d0bfc917d40fc942f9077efa0ada') in 0.005179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 177.077101 seconds.
-  path: Assets/DialogueEditor/Enumerations/DEDialogueType.cs
-  artifactKey: Guid(8ca7a8576f9a07f4c9f01b0060e5490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Enumerations/DEDialogueType.cs using Guid(8ca7a8576f9a07f4c9f01b0060e5490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d24505a5f48299a9b94eadbf1e95dc0') in 0.007058 seconds 
+  Time since last request: 512422.926604 seconds.
+  path: Assets/JsonHelper.cs
+  artifactKey: Guid(f88a964e904dcc948b1410852427bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JsonHelper.cs using Guid(f88a964e904dcc948b1410852427bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8272cbbefbb200421d0cc765543b0050') in 0.017034 seconds 

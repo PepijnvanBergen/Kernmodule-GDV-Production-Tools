@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623b560e7fd026b418973d3ebcd546e2, type: 3}
+  m_Name: dawdsdGraph
+  m_EditorClassIdentifier: 
+  <fileName>k__BackingField: dawdsd
+  <groups>k__BackingField: []
+  <nodes>k__BackingField:
+  - <id>k__BackingField: f5952ba5-0b40-439e-b547-7c264b5ee696
+    <name>k__BackingField: DialogueName
+    <text>k__BackingField: Dialogue text
+    <choices>k__BackingField:
+    - <text>k__BackingField: Next Dialogue
+      <nodeID>k__BackingField: 38480e74-1572-4730-91b4-c5f2ff0bcb93
+    <groupID>k__BackingField: 
+    <dialogueType>k__BackingField: 0
+    <position>k__BackingField: {x: 183, y: 154}
+  - <id>k__BackingField: 38480e74-1572-4730-91b4-c5f2ff0bcb93
+    <name>k__BackingField: sadf
+    <text>k__BackingField: Dialogue text
+    <choices>k__BackingField:
+    - <text>k__BackingField: Next Dialogue
+      <nodeID>k__BackingField: 0fc17524-591f-4f83-b59d-cdb6a424b811
+    <groupID>k__BackingField: 
+    <dialogueType>k__BackingField: 1
+    <position>k__BackingField: {x: 507, y: 2}
+  - <id>k__BackingField: 0fc17524-591f-4f83-b59d-cdb6a424b811
+    <name>k__BackingField: fsdsefr
+    <text>k__BackingField: Dialogue text
+    <choices>k__BackingField:
+    - <text>k__BackingField: Next Dialogue
+      <nodeID>k__BackingField: 
+    <groupID>k__BackingField: 
+    <dialogueType>k__BackingField: 0
+    <position>k__BackingField: {x: 1010, y: 58}
+  <oldGroupNames>k__BackingField: []
+  <oldUngroupedNodeNames>k__BackingField:
+  - DialogueName
+  - sadf
+  - fsdsefr
+  <oldGroupedNodeNames>k__BackingField:
+    list: []

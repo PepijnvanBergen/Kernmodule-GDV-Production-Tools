@@ -1,6 +1,8 @@
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework.Internal;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -64,6 +66,30 @@ namespace DE.Utilities
 
             SaveAsset(graphData);
             SaveAsset(dialogueContainer);
+
+            //SavetoJson
+            SaveToJson<DENodeSaveData>(graphData.nodes, graphFileName + "nodes");
+            SaveToJson<DEGroupSaveData>(graphData.groups, graphFileName + "groups");
+        }
+
+        private static void SaveToJson<T>(List<T> _toSave, string _filename)
+        {
+            string content = JsonHelper.ToJson<T>(_toSave.ToArray());
+            WriteJsonFile(GetPath(_filename), content);
+            Debug.Log(GetPath(_filename));
+        }
+
+        private static void WriteJsonFile(string _path, string content)
+        {
+            FileStream fileStream = new FileStream(_path, FileMode.Create);
+            using (StreamWriter writer = new StreamWriter(fileStream))
+            {
+                writer.Write(content);
+            }
+        }
+        private static string GetPath(string _fileName)
+        {
+            return Application.persistentDataPath + "/" + _fileName;
         }
         private static void SaveGroups(DEGraphSaveDataSO _graphData, DEDialogueContainerSO _dialogueContainer)
         {
@@ -362,6 +388,9 @@ namespace DE.Utilities
             CreateFolder(containerFolderPath, "Global");
             CreateFolder(containerFolderPath, "Groups");
             CreateFolder($"{containerFolderPath}/Global", "Dialogues");
+            
+            //Create Json folders
+            //CreateFolder("Assets/DialogueEditor/Json", graphFileName);
         }
         private static void GetElementsFromGraph()
         {
@@ -421,9 +450,9 @@ namespace DE.Utilities
 
             return AssetDatabase.LoadAssetAtPath<T>(fullPath);
         }
-        public static void SaveAsset(UnityEngine.Object asset)
+        public static void SaveAsset(UnityEngine.Object _asset)
         {
-            EditorUtility.SetDirty(asset);
+            EditorUtility.SetDirty(_asset);
 
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

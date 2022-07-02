@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcfefd20c8c0ac4aa2cdb705edc8205, type: 3}
+  m_Name: nodegrouptest2
+  m_EditorClassIdentifier: 
+  <fileName>k__BackingField: nodegrouptest2
+  <dialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: cb287a87fba8ab047b6d413da1c585bf, type: 2}
+      Value: []
+  <unGroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: eef2e87dcbef4674f871eb449ae9ba72, type: 2}
+  - {fileID: 11400000, guid: dc12c269216fbb048867b322526fe371, type: 2}
+  - {fileID: 11400000, guid: f3472e533c4dd6a459031b22910e2d03, type: 2}
